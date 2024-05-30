@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: system-ui, "Helvetica Neue";
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    color: #f7f7f7;
+    background-color: #222;
+  }
+}
